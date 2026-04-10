@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #0f172a;
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    background: rgba(0,0,0,0.7);
+    position: sticky;
+    top: 0;
+}
+
+.navbar ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+.hero {
+    height: 400px;
+    background: url('https://via.placeholder.com/1200x400') center/cover; /* change the picture */
+    display: flex;
+    align-items: center;
+    padding: 40px;
+}
+
+.hero-content {
+  max-width: 500px;
+}
+
+.hero button {
+  padding: 10px 20px;
+  background: #3b82f6;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
